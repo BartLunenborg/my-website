@@ -3,6 +3,7 @@ import TwoPictures from "../components/TwoPictures";
 import "../assets/scss/App.css";
 import imageOne from "../assets/images/ochtend.jpg"
 import imageTwo from "../assets/images/lorch.jpg"
+import Contacts from "../components/Contacts";
 
 function Blog() {
   return (
@@ -26,6 +27,7 @@ function Blog() {
           </a>
         </div>
       </header>
+      <Contacts />
     </div>
   );
 }

@@ -4,10 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import MenuBar from "./components/MenuBar";
 import Home from "./pages/Home";
 import Blog from "./pages/Blog";
-
-function NotFound() {
-  return <div>This page is currently under construction or does not exist.</div>;
-};
+import NotFound from "./pages/NotFound";
 
 function App() {
   return (

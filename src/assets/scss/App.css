@@ -17,20 +17,49 @@
   color: #3083CD;
 }
 
-.Contacts-div {
-  min-height: 20vh;
+/* NotFound.tsx */
+.Not-found {
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(12px + 1vmin);
+  font-size: calc(16px + 2vmin);
   color: black;
+  margin: 0;
+  text-align: center;
+}
+
+/* Contacts.tsx */
+
+.Contacts {
+  margin-top: 50px;
+}
+
+.Contacts-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1vmin);
+  color: black;
+}
+
+.Contacts-contact {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.Contacts-hr {
+  margin-top: 40px;
+  width: 60vw;
+  border: 1px solid black;
 }
 
 /* Home.tsx */
 
 .Home-header {
-  min-height: 80vh;
+  min-height: 45vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -41,6 +70,7 @@
 }
 
 .Home-header-content {
+  min-height: 30vh;
   display: flex;
   align-items: center;
 }
@@ -64,6 +94,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Home-paragraph {
+  text-align: left;
+  width: 80vw;
 }
 
 /* MenuBar.tsx */
@@ -120,7 +155,6 @@
   text-align: left;
   width: 80vw;
   margin-top: 20px;
-  margin-bottom: 40px;
 }
 
 .Blog-line {
