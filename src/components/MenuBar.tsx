@@ -11,16 +11,16 @@ const MenuBar: React.FC = () => {
           <NavLink to="/">Home</NavLink>
         </li>
         <li>
-          <NavLink to="/about">About</NavLink>
+          <NavLink to="/about/">About</NavLink>
         </li>
         <li>
-          <NavLink to="/blog">Blog</NavLink>
+          <NavLink to="/blog/">Blog</NavLink>
         </li>
         <li>
-          <NavLink to="/services">Services</NavLink>
+          <NavLink to="/services/">Services</NavLink>
         </li>
         <li>
-          <NavLink to="/contact">Contact</NavLink>
+          <NavLink to="/contact/">Contact</NavLink>
         </li>
       </ul>
     </nav>

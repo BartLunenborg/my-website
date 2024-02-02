@@ -6,7 +6,7 @@ import Home from "./pages/Home";
 import Blog from "./pages/Blog";
 
 function NotFound() {
-  return <div>This page is currently under construction.</div>;
+  return <div>This page is currently under construction or does not exist.</div>;
 };
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
         <MenuBar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/" element={<Blog />} />
           {/* Add more routes for other pages */}
           <Route path="*" element={<NotFound />} />
         </Routes>
