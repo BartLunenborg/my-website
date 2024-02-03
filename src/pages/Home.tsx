@@ -16,6 +16,10 @@ function Home() {
         <p className="Home-paragraph">
           Hi there, and welcome to my personal website.
           My name is Bart Lunenborg and I'm a second year Computer Science student at the Rijksuniversiteit Groningen.
+          I made this website as a fun little side project and to learn React and Typescript.
+        </p>
+        <p className="Home-paragraph">
+          Thank you for checking out my website.
         </p>
       </header>
       <Contacts />

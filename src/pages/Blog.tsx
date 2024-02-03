@@ -18,8 +18,8 @@ function Blog() {
         />
         <hr className="Blog-line" />
         <div className="Blog-paragraph">
-          In 2024 I embarked on my first long-distance hike, walking 10 stages of the Rheinsteig.
-          This journey took me through the picturesque Rhine valley, offering beautiful views and enchanting moment.
+          In 2023 I embarked on my first long-distance hike, walking 10 stages of the Rheinsteig.
+          This journey took me through the picturesque Rhine valley, offering beautiful views and enchanting moments.
           Every day I documented my experiences in little blog posts.
           If you're interested in reading about my Rheinsteig experience or would like to follow me on future journeys, my blog can be found on:{" "}
           <a className="App-link" href="https://wandernmitbart.wordpress.com/">
