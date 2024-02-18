@@ -243,3 +243,24 @@
   text-align: left;
   max-width: 50vw;
 }
+
+/* Contact.tsx */
+.Contact-header {
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  margin: 0;
+  text-align: center;
+}
+
+.Contact-paragraph {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 50vh;
+  width: 80vw;
+}
