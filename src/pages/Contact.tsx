@@ -11,7 +11,7 @@ function Contact() {
         <p>
           If you would like to contact me, feel free to send an email to <a href = "mailto: bart@bartlunenborg.com"> bart@bartlunenborg.com </a>
         <br/><br/>
-        Alternatively you can contact my using any of my other links below.
+        Alternatively you can contact me using any of my other links below.
         </p>
         </div>
       </header>
